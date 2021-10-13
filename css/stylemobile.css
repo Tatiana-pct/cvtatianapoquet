@@ -1,0 +1,272 @@
+@media only screen and (max-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+  
+@media screen and (max-width: 1023px) {
+    h1 {
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    section {
+        padding-top: 40px;
+    }
+
+    .section-title {
+        padding-bottom: 20px;
+    }
+
+
+
+    /* MENU */
+    nav {
+        display: none;
+    }
+
+    #mobile-nav {
+        display: block;
+    }
+
+    #hamburger, #cross {
+        cursor: pointer;
+    }
+    /* end menu */
+
+
+
+    /* HOMEPAGE */
+    .parallax-outer {
+        height: 500px;
+    }
+
+    #homepage {
+        bottom: 0px;
+    }
+
+    header {
+        font-size: 1.5em;
+    }
+
+    #header-text {
+        font-size: 1em;
+        line-height: 1.5em;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    /* end homepage */
+
+
+
+    /* ABOUT */
+    .item.box1 {
+        display: none;
+    }
+
+    .box2 {
+        width: 100%
+    }
+
+    .box2 p {
+        font-size: 0.9em;
+        line-height: 1.6em;
+    }
+
+    .box3 {
+        display: inline;
+    }
+
+    .box3.img-container {
+        float: left;
+        width: 30%;
+        margin-right: 20px;
+    }
+
+    .box3.about-list {
+        line-height: 1.6em;
+        font-size: 0.8em;
+    }
+
+    .box3 p.item {
+        width: 60%;
+        font-size: 0.8em;
+        vertical-align: top;
+        text-align: left;
+        padding: 0px;
+    }
+
+    #buttons-container {
+        margin-top: 1em;
+    }
+
+    #buttons-container button {
+        margin: 0.6em 0em;
+    }
+    /* end about */
+
+
+
+    /* SKILLS */
+    #skills .c-item.icon {
+        display: none;
+    }
+
+    .skill-box {
+        font-size: 0.6em;
+    }
+
+    .skill-box i {
+        font-size: 3em;
+    }
+
+    #skills .space-between {
+        font-size: 0.87em;
+    }
+
+    #skills .item.stars {
+        font-size: 0.65em;
+    }
+
+    #skills #environnement .item.desc.end {
+        font-size: 0.85em;
+        line-height: 2em;
+    }
+    /* end skills */
+
+
+
+    /* CONTACT */
+    .contact-subtitle {
+        line-height: 1.5em;
+    }
+
+    .contact-subtitle .jobs {
+        margin-top: 2em;
+    }
+  
+    .item.contact-box.meet p {
+        font-size: 0.8em;
+    }
+    /* end contact */
+}
+
+@media screen and (max-width: 895px) {
+    #contact .space-between .item {
+        display: block;
+        width: inherit;
+        margin: 25px 0px;
+    }
+
+    #contact .contact-box .text {
+        font-size: 1em;
+    }
+
+    #contact .item.contact-box.meet p {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    /* EXPERIENCE */
+    #timeline {
+        margin-top: 0px;
+    }
+
+    #timeline::after {
+        display: none;
+    }
+
+    .event .left {
+        font-size: 0.42em;
+        line-height: 1.5em;
+        background-color: white;
+        padding: 15px 0px;
+        width: 75px;
+        z-index: 99;
+    }
+
+    .event .right {
+        margin-left: 90px;
+        padding: 20px 0px;
+    }
+
+    .event .right::after {
+        display: none;
+    }
+
+    .event .right .content {
+        padding: 17px 20px 10px 20px;
+        font-size: 0.7em;
+    }
+
+    .event h3 i {
+        width: 30px;
+    }
+
+    .event h3 {
+        font-size: 1.4em;
+    }
+
+    .event .place {
+        font-size: 1em;
+    }
+    /* end experience */
+}
+
+@media screen and (max-width: 600px) {
+    /* EXPERIENCE */
+    #timeline .event .left {
+        display: none;
+    }
+  
+    #timeline .event .right {
+        margin-left: 0px;
+    }
+  
+    #timeline .event .right::before {
+        display: none;
+    }
+  
+    #timeline .event .right .date {
+        display: block;
+    }
+  
+    #timeline .event h3 {
+        padding-bottom: 0px;
+    }
+  
+    #timeline .event .place {
+        padding-bottom: 15px;
+    }
+    /* end experience */
+}
+
+@media screen and (max-width: 561px) {
+    #projects #iselection ul.desc {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 387px) {
+    header {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    #skills .space-between {
+        font-size: 0.8em;
+    }
+
+    #skills .item.stars {
+        font-size: 0.6em;
+    }
+
+    #projects ul.desc {
+        height: 150px;
+    }
+}
