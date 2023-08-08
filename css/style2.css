@@ -758,8 +758,9 @@ button#cv {
 #projet6 .image-box {
   background-image: url("");
 }
+
 #projetcvdigital .image-box {
-  background-image: url("https://lvl-up.itch.io/my-digital-resume");
+  background-image: url("../img/vignetteCvIntercatif.png");
 }
 .overlay {
   position: absolute;
