@@ -762,6 +762,25 @@ button#cv {
 #projetcvdigital .image-box {
   background-image: url("../img/vignetteCvIntercatif.png");
 }
+
+#projetbeatthemup .image-box {
+  background-image: url("../img/vignette.png");
+}
+
+#The3wa.image-box {
+  background-image: url("../img/vignetteAboutMe.png");
+}
+#Auditoruim .image-box {
+  background-image: url("../img/VignetteAuditoruim.png");
+}
+#TopDown2D .image-box {
+  background-image: url("../img/VignetteTopDown.png");
+}
+
+#projetSurvival .image-box {
+  background-image: url("../img/VignetteSurvival2.png");
+}
+
 .overlay {
   position: absolute;
   bottom: 0;
