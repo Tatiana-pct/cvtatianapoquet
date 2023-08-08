@@ -781,6 +781,10 @@ button#cv {
   background-image: url("../img/VignetteSurvival2.png");
 }
 
+#projetPlatformerVinking .image-box {
+  background-image: url("../img/PlatformerVinking2D.PNG");
+}
+
 .overlay {
   position: absolute;
   bottom: 0;
