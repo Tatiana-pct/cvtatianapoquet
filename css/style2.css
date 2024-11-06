@@ -362,6 +362,7 @@ header {
   font-size: 25px;
   font-weight: 300;
   margin: 70px 0px 110px 0px;
+  color: white;
 }
 
 .skill-box {
@@ -387,7 +388,7 @@ header {
 .skill-box .fa-database:hover {
   color: #3498db;
 }
-.skill-box .fa-mobile-alt:hover {
+.skill-box .fa-user-alt:hover {
   color: #e74c3c;
 }
 .skill-box .fa-pencil-ruler:hover {
@@ -399,6 +400,10 @@ header {
 
 .skill-box .fa-edit:hover {
   color: #f1c40f;
+}
+
+.skill-box .fa-gamepad:hover {
+  color: darkorange ;
 }
 
 /*------------------------------------------------------------------------------------- ABOUT */
@@ -752,10 +757,14 @@ button#cv {
 }
 
 #projet5 .image-box {
-  background-image: url("");
+  background-image: url("../img/acceuil.png");
 }
 
 #projet6 .image-box {
+  background-image: url("../img/FPS.jpg");
+}
+
+#projet7 .image-box {
   background-image: url("");
 }
 
@@ -816,7 +825,7 @@ button#cv {
   font-weight: 600;
   text-transform: uppercase;
   color: white;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 #projects .tags li {
@@ -871,7 +880,7 @@ button#cv {
 .contact-box .text {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 19px;
 }
 
 .contact-box i {
@@ -974,7 +983,7 @@ footer .fas fa-download {
   }
 
   .contact-box .text {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 
